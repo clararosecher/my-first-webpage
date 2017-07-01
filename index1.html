@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Webpage</title>
+</head>
+<body>
+	<h1 id="top">This is my header</h1>
+	<p>This is my first paragraph</p>
+	<h2>This is my second header</h2>
+	<h3>This is my third header</h3>
+	<h4>This is my fourth header</h4>
+	<h5>This is my fifth header</h5>
+	<h6>This is my sixth header</h6>
+	<p>This is my second paragraph</p>
+	<p>Lorem ipsum what ever hello hello hello
+	Good morning world wheeeeeeeeeeeeeeeeeeee <br><hr>
+	HTML class yo
+	</p>
+
+	<h3>About Bold and Italic</h3>
+	<p>You can <b>bold</b> a word in a sentence. <br>
+	You can make a word appear in <i>italics</i></p>
+	<!-This is a comment tag: for other people reading the tag to know what's going on->
+
+	<h3>About Other Codes</h3>
+	So what does <em>em</em> do?
+	So what does <mark>mark</mark> do?
+	So what does <small>small</small> do?
+	So what does <del>del</del> do?
+	So what does <ins>ins</ins> do?
+	So what does <sub>sub</sub> do?
+	So what does <sup>sup</sup> do?
+
+	<h3>Lists: Ordered and Unordered</h3>
+	<p>Ordered List</p>
+	<ol>
+		<li>One</li>
+		<li>Two</li>
+		<li>Three</li>
+	</ol>
+	<p>Unordered List</p>
+	<ul>
+		<li>Satu</li>
+		<li>Dua</li>
+		<li>Tiga</li>
+	</ul>
+	<h3>Activity Time: Build Your Own List</h3>
+	<h4>Things To Do </h4>
+	<ol>
+		<li>Go to coding class</li>
+		<ul>
+			<li>National Design Centre</li>
+			<li>2nd Floor</li>
+		</ul>
+		<li>Meet P for dinner</li>
+		<ul>
+			<li>Location: <em>Unknown</em></li>
+			<li>Time: 6pm</li>
+		</ul>
+		<li>Meet ZT for drinks</li>
+		<ul>
+			<li>Location: <a href="http://www.smokeandmirrors.com.sg/">Smoke and Mirrors</a></li>
+			<li>Time: 10pm</li>
+		</ul>
+	</ol>
+
+	<h3>Linking: Within the same page</h3>
+	<p>Create an id within the page using the link tag: id
+	<br> Add the link <a href="#top">here</a>.
+	<br> <i>Note: The id tag has to be part of the tag withint the triangle brackets</i>
+	</p>
+
+	<h3>Adding Images</h3>
+	<p>Image doesnt have a closing tag
+	<br> Get the image source from the website
+	<img src="http://images.clipartpanda.com/smiley-face-star-clipart-happy-face-clip-art-black-and-white-212.jpg">
+	<br> For images on the computer
+	<img src="Single-Flower.jpg">
+
+	<h3>Creating Tables</h3>
+	<table>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</table>
+<p>Creating Headers in Tables
+<br>
+<br> Column Headers
+
+	<table>
+		<tr>
+			<th scope="col">Mon</th>
+			<th scope="col">Tues</th>
+			<th scope="col">Wed</th>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</table>
+
+	<br>Row Headers
+
+	<table>
+		<tr>
+			<th scope="row">Mon</th>
+			<td>1</td>
+		</tr>
+		<tr>
+			<th scope="row">Tues</th>
+			<td>2</td>
+		</tr>
+		<tr>
+			<th scope="row">Wed</th>
+			<td>3</td>
+		</tr>
+	</table>
+
+	<table style="text-align:center;">
+		<tr>
+			<td></td>
+			<th scope="col">Mon</th>
+			<th scope="col">Tues</th>
+			<th scope="col">Wed</th>
+		</tr>
+		<tr>
+			<th scope="row">Cookies Ate</th>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<th scope="row">Donuts Ate</th>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+	</table>
+<br>
+<br>
+	<table style="text-align:center; color:white"
+	cellpadding="15">
+		<tr bgcolor="pink">
+			<th></th>
+			<th scope="col">8am</th>
+			<th scope="col">9am</th>
+			<th scope="col">10am</th>
+		</tr>
+		<tr bgcolor="pink">
+			<th scope="row">Tasks</th>
+			<td>Wake Up</td>
+			<td colspan="2">Go to work</td>
+		</tr>
+	</table>
+	</p>
+
+<h3>Creating Forms</h3>
+<form>
+	<p>
+	Username: Single Line
+	<input type="text" name="username" size="15" maxlength="10">
+	</p>
+
+	<p>
+		Comments: Multiple Rows and Columns
+		<textarea style="vertical-align:middle;" name="Comments" cols="15" rows="5">Please enter your comments here</textarea>
+	</p>
+	<p>
+	Password
+	<input type="Password" name="Password" size="15" maxlength="10">
+	</p>
+	<p></p>
+</form>
+<form>
+	<p>
+		Select Your Dietary Preference <br>
+		Vegetarian
+		<input type="radio" name="Dietary preference" value="Vegetarian" checked="checked" style="color:pink">
+		Halal
+		<input type="radio" name="Dietary preference" value="Halal" style="color: blue">
+		None
+		<input type="radio" name="Dietary preference" value="None" style="color: green">
+	</p>
+</form>
+<form>
+	<p>
+		Select Your Favourite Colour<br>
+		<select name="Dietary preference">
+			<option value="Pink" >Pink</option>
+			<option value="Blue" > Blue </option>
+			<option value="Green" >Green</option>
+		</select>
+	</p>
+	</form>
+	<form>
+	<p>
+	Please select your favourite cities
+	<input type="checkbox" name="City" value="Singapore"> Singapore
+	<input type="checkbox" name="City" value="Seoul"> Seoul
+	<input type="checkbox" name="City" value="Tokyo">Tokyo
+	</p>
+</form>
+<form>
+	<p>Subscribe to our email!</p>
+	<input type="text" name="email">
+	<input type="submit" name="subscribe" value="Subscribe">
+</form>
+<input type="button" name="button" value="click me">
+<form>
+	Birthday
+	<input type="date" name="Birthday">
+</form>
+<form>
+	Select your favourite colour
+	<input type="color" name="favourite colour">
+</form>
+</body>
+</html>
